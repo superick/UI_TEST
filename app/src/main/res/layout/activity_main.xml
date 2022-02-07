@@ -9,11 +9,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/contentEdt"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="보여줄 문구"/>
     <EditText
+        android:id="@+id/contentEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="아무 문장이나 입력"/>
